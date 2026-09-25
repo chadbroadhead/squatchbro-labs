@@ -8,7 +8,7 @@ Static website prepared for a private GitHub repository and Cloudflare Pages.
 - `dist/styles.css`: responsive styles
 - `dist/assets/`: supplied SquatchBro Labs and DataMapper Pro artwork
 
-No dependencies, build step, backend, or API credentials are required. Fonts are loaded from Google Fonts, with local fallback fonts.
+No dependencies, build step, backend, or API credentials are required. Fonts use the operating system’s local font stack; no external font request is made.
 
 ## Local preview
 
@@ -56,3 +56,7 @@ No purchase or download links are currently included. The FAQ explicitly says th
 - https://developers.cloudflare.com/pages/configuration/custom-domains/
 
 This package contains no ChatGPT hosting configuration, Git history, or credentials.
+
+## September 2026 review draft
+
+Additional pages: `dist/about.html` and `dist/privacy.html`. Shared interactions live in `dist/site.js`. The current draft uses system fonts with no external font request. See `REVIEW.md` for publication prerequisites and the review-first workflow. The demo uses fictional data and does not accept files.
