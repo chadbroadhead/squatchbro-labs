@@ -22,7 +22,7 @@ Open http://localhost:8000.
 
 ## Deploy through GitHub
 
-1. Use the existing `chadbroadhead/squatchbro-labs` repository.
+1. Create a private repository named `squatchbro-labs-website` under your chosen GitHub account or organization.
 2. Upload the CONTENTS of this folder to the repository root. Keep `dist` as a folder.
 3. In Cloudflare, open Workers & Pages, create a Pages application, and import the GitHub repository. Authorize access to this repository.
 4. Configure:
