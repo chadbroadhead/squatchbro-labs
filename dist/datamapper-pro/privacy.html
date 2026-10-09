@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#faf8f4">
+    <title>DataMapper Pro Privacy Policy | SquatchBro Labs</title>
+    <meta name="description"
+        content="How DataMapper Pro handles local data, license validation, payments, and optional AI requests.">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body {
+            background: #faf8f4;
+            color: #26302b;
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            line-height: 1.75
+        }
+
+        a {
+            color: #236b57
+        }
+
+        .shell {
+            max-width: 970px;
+            margin: auto;
+            padding: 0 24px
+        }
+
+        header,
+        footer {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 25px 0;
+            border-bottom: 1px solid #dce3db
+        }
+
+        footer {
+            border-top: 1px solid #dce3db;
+            border-bottom: 0
+        }
+
+        header a {
+            font-weight: 700
+        }
+
+        .hero {
+            padding: 70px 0 30px
+        }
+
+        .eyebrow {
+            font-size: .8rem;
+            letter-spacing: .16em;
+            font-weight: 800;
+            color: #236b57
+        }
+
+        h1 {
+            font-size: clamp(2.4rem, 5vw, 4.2rem);
+            line-height: 1.12;
+            letter-spacing: -.04em;
+            margin: 12px 0
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            line-height: 1.3
+        }
+
+        section {
+            border-top: 1px solid #dce3db;
+            padding: 20px 0
+        }
+
+        p,
+        li {
+            color: #4c5a52
+        }
+
+        .note {
+            background: #eaf1e9;
+            padding: 16px 20px;
+            border-left: 3px solid #236b57;
+            border-radius: 5px;
+            margin: 20px 0
+        }
+
+        nav a {
+            margin-left: 15px
+        }
+
+        main {
+            max-width: 780px
+        }
+
+        ul {
+            padding-left: 25px
+        }
+
+        @media(max-width:650px) {
+            nav a {
+                margin-left: 0;
+                margin-right: 12px
+            }
+
+            .hero {
+                padding-top: 40px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shell">
+        <header><a href="../index.html">SquatchBro Labs</a>
+            <nav aria-label="Navigation"><a href="../index.html">Home</a><a href="../privacy.html">Website Privacy</a><a
+                    href="mailto:support@squatchbrolabs.com">Support</a></nav>
+        </header>
+        <main>
+            <div class="hero">
+                <p class="eyebrow">DATAMAPPER PRO · PRIVACY</p>
+                <h1>Your data deserves<br>straight answers.</h1>
+                <p>How DataMapper Pro handles imported files, saved settings, subscription licenses, and optional AI
+                    features.</p>
+                <p><strong>Updated October 9, 2026 · <a href="https://chromewebstore.google.com/detail/mdbbhongfdmhgjagabjeilompbjancmd"> DataMapper Pro </a></strong></p>
+            </div>
+            <section>
+                <h2>1. Scope and purpose</h2>
+                <p>This policy describes DataMapper Pro, the Chrome extension from SquatchBro Labs LLC. DataMapper Pro
+                    imports structured files, applies reusable mappings and transformations, previews and validates
+                    results, and exports files. Paid features use license verification; optional AI proposes
+                    transformation recipes for you to review. Our <a href="../privacy.html">website privacy notice</a>
+                    separately describes our website.</p>
+            </section>
+            <section>
+                <h2>2. Files and local processing</h2>
+                <p>The files you choose, including CSV, TSV, JSON, XML, XLSX (Excel) and lookup files, are processed locally in
+                    your browser. Ordinary importing, transformation, preview, validation and export do not upload your
+                    datasets to a SquatchBro Labs server, OpenAI or Lemon Squeezy.</p>
+                <p>Your files and mapping content can contain personal or sensitive information. You control which files
+                    you import and which fields you include in exports. DataMapper Pro does not read your browsing
+                    history, scrape visited websites, record your clicks or keystrokes for analytics, or collect GPS
+                    location. Transformation statistics are calculated locally.</p>
+            </section>
+            <section>
+                <h2>3. Saved projects, settings and credentials</h2>
+                <p>Chrome's local extension storage retains saved or imported projects, preferences and license
+                    information. A project can include source filenames and column names, transformations and mapping
+                    text, output column definitions, static values, export settings, an anonymizer seed, and last-run
+                    row counts and timestamps. <strong>Lookup-table rows included in a project are saved with it and can
+                        contain actual data values.</strong> Primary source rows and workbook contents are held in the
+                    working panel's memory and are not automatically saved as the primary dataset.</p>
+                <p>License storage includes the license key, activation-instance identifier, plan, activation usage and
+                    limit, and last validation time. Preferences include the theme, onboarding state and selected AI
+                    model. This build does not use Chrome storage sync.</p>
+                <p>Your optional OpenAI API key is held in panel memory and Chrome's in-memory session storage. It is
+                    cleared when Chrome restarts or when the extension is disabled, reloaded or updated. Use the key's
+                    <strong>Clear</strong> control to remove it sooner. The extension does not add stored license or API
+                    credentials to project or data exports. Values you deliberately put into source data, lookup tables,
+                    mapping text or other exportable content are still your data and may be exported.</p>
+            </section>
+            <section>
+                <h2>4. Purchases and license verification</h2>
+                <p>Purchases occur on Lemon Squeezy's hosted checkout. The extension does not receive payment card
+                    numbers. Lemon Squeezy processes checkout, payment and subscription information under its own terms.
+                </p>
+                <p>Activation sends your license key and the fixed instance name “DataMapper Pro - Chrome” directly to
+                    Lemon Squeezy. Validation and deactivation send your license key and activation-instance identifier.
+                    After activation, the extension can revalidate a stored license when you reopen the panel and the
+                    previous validation is at least one day old. Imported files, source rows and mapping content are not
+                    sent with these requests.</p>
+                <p>Lemon Squeezy's response can include license status, activation information, order/product/variant
+                    identifiers and customer name, email address and customer identifier. The extension reads this
+                    response to verify the product and entitlement; it saves the selected license fields described
+                    above, rather than the returned customer-name/email fields. Lemon Squeezy also receives technical
+                    connection information, including your IP address. See <a
+                        href="https://www.lemonsqueezy.com/privacy">Lemon Squeezy's privacy policy</a>.</p>
+            </section>
+            <section>
+                <h2>5. Optional OpenAI features</h2>
+                <p>AI requests are sent only when you choose to generate an AI plan. The extension connects directly to
+                    OpenAI using your API key and sends your instructions, available column names, allowed
+                    transformation types, model selection, generation settings, system instructions and the
+                    structured-response schema. OpenAI receives your API key for authentication and technical connection
+                    information, including your IP address.</p>
+                <p>The extension does not automatically attach source rows, cell values, lookup tables, source files,
+                    filenames, saved projects or previews to these requests. <strong>Anything you type into your
+                        instructions, and information present in column names, is sent to OpenAI.</strong> Remove
+                    personal or confidential values before sending a request unless you are authorized to share them.
+                </p>
+                <p>Requests set <code>store: false</code> to request that response records are not saved for later
+                    retrieval. This is not a promise of zero retention: OpenAI can retain information for abuse
+                    monitoring and other purposes described in its <a
+                        href="https://developers.openai.com/api/docs/guides/your-data">API data controls</a>, <a
+                        href="https://openai.com/policies/privacy-policy/">privacy policy</a> and your account's
+                    applicable terms and settings. Your OpenAI API charges are separate from the DataMapper
+                    subscription.</p>
+            </section>
+            <section>
+                <h2>6. Sharing and limited use</h2>
+                <p>The extension sends data to Lemon Squeezy for licensing and to OpenAI for AI requests you initiate,
+                    as described above. We do not sell extension user data, use it for advertising, or use or transfer
+                    it to determine creditworthiness or for lending.</p>
+                <p>Our use and transfer of extension user data follow the <a
+                        href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store
+                        Limited Use requirements</a>: data is used for the extension's disclosed purpose and related
+                    user-facing functionality. We do not use or transfer it for unrelated purposes. We do not allow
+                    human access to extension user data except with your explicit consent for specific support data,
+                    where necessary for security, or where required by law. The extension does not provide us with
+                    remote access to your locally processed files.</p>
+            </section>
+            <section>
+                <h2>7. Security and retention</h2>
+                <p>External license and AI requests use HTTPS. Application errors are designed to avoid exposing stored
+                    credentials in logs, notifications or alerts. These controls do not guarantee absolute security.</p>
+                <p><strong>The current build does not apply application-level encryption to license information or
+                        projects saved in Chrome's local extension storage.</strong> Browser extension storage is not a
+                    dedicated encrypted secrets vault. Protect your browser profile and device, avoid shared profiles
+                    for sensitive work, and protect exported files. Local saved information remains until you delete it
+                    or remove the extension's storage; clearing browsing history alone does not necessarily remove
+                    extension storage.</p>
+                <p>Exported files remain wherever you save them. Provider-held checkout, subscription, license and AI
+                    records follow the providers' retention policies. Clearing local information does not delete those
+                    records.</p>
+            </section>
+            <section>
+                <h2>8. Choices and deletion</h2>
+                <ul>
+                    <li>Use local transformations without generating an AI plan to avoid sending prompt and column-name
+                        content to OpenAI.</li>
+                    <li>Use <strong>Clear</strong> beside the OpenAI key to remove it from the panel and session
+                        storage.</li>
+                    <li>Delete a saved project to remove that project's locally stored settings and lookup-table rows.
+                        This does not delete exported copies or the original source file.</li>
+                    <li>Use <strong>Deactivate this device</strong> to release a license activation and clear the local
+                        license record after successful deactivation. Other saved projects and settings remain.</li>
+                    <li>Removing the extension clears its local extension storage. This does not automatically release a
+                        remote license activation, cancel a subscription, delete exported files or erase provider
+                        records.</li>
+                    <li>Manage billing and subscription records through Lemon Squeezy's customer tools or contact
+                        support. For AI-provider records, use the applicable OpenAI account controls.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>9. Contact and changes</h2>
+                <p>For privacy questions or help with deletion, email <a
+                        href="mailto:support@squatchbrolabs.com">support@squatchbrolabs.com</a> — Squatch Guide,
+                    SquatchBro Labs. If you contact support, we receive the address, message and any attachments you
+                    choose to send; avoid including credentials or unnecessary personal information.</p>
+                <p>We will update this policy when product practices change and disclose material changes to data
+                    handling before they take effect.</p>
+            </section>
+        </main>
+        <footer><span>© 2026 SquatchBro Labs · Practical tools. Wild possibilities.</span><a
+                href="../privacy.html">Website Privacy &amp; Disclaimer</a></footer>
+    </div>
+</body>
+
+</html>
