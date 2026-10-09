@@ -59,3 +59,22 @@ th{color:#3d4b5c}td{color:#566475}
 .privacy-content section p,.contact-address{color:#58616c}
 .privacy-content section a,.contact-address a{color:#80531d}
 .skip{background:#ead0a4;color:#342717}
+
+/* Approved ivory / flat charcoal brand direction — October 2026. */
+:root{--bg:#F7F6F2;--panel:#fff;--white:#0D0F12;--muted:#59606b;--orange:#936b32;--line:#0d0f121c;color-scheme:light}
+body{background:var(--bg)}header{background:#f7f6f2f2;border-bottom:1px solid var(--line)}
+.nav{height:92px}.nav nav{color:#0D0F12}.brand-mark,.footer-top .brand-mark{width:280px;aspect-ratio:3/1;overflow:visible}
+.brand-mark img,.brand-art .brand-mark img{position:static;width:100%;height:100%;object-fit:contain;filter:brightness(0);opacity:.95;mix-blend-mode:normal}
+.nav .brand{padding:0}.small-button{border-color:#A17A40;border-radius:8px;color:#765323;background:transparent}
+.home-hero{padding-top:64px;width:100%;max-width:none}.home-hero h1{font-size:clamp(48px,7vw,90px);font-weight:750;letter-spacing:-.055em}.home-hero .eyebrow{color:#805c29;font-size:11px}
+.warm-text{background:none;color:#A17A40}.hero-sub{color:#59606b;font-size:20px;line-height:1.5}
+.button{border-radius:9px}.primary,.product-card .light{background:#E4BD75;color:#0D0F12;border-color:#E4BD75}.button:hover{box-shadow:0 8px 25px #a17a4026}
+.actions .text-link{border:1px solid #A17A40;border-radius:9px;padding:11px 22px;color:#0D0F12}
+.horizon{height:300px;margin-top:18px;background:none;overflow:hidden}.hero-landscape{width:100%;height:100%;object-fit:cover;object-position:center;mask-image:linear-gradient(transparent,#000 12%,#000 85%,transparent)}
+.product-section{padding-top:45px}.product-section .section-head{display:block;text-align:center}.product-section .eyebrow{justify-content:center;color:#805c29}.product-section .section-head>p{margin-top:18px}.section-head h2{font-size:42px}
+.product-card{background:radial-gradient(ellipse at 85% 45%,#34294455,transparent 65%),#121619;border:1px solid #33383c;border-radius:18px;box-shadow:0 18px 35px #0d0f1214;color:#F7F6F2;min-height:390px}
+.product-copy{padding:38px}.product-copy .pill{background:none;border:0;padding:0;color:#E4BD75;font-size:10px}.product-copy h3{font-size:45px;margin:20px 0 12px}.product-copy h3 span{color:#F7F6F2}.product-headline{font-size:29px;letter-spacing:-.8px}.product-headline br{display:none}.product-copy>p:not(.product-headline){color:#ced0d4;line-height:1.7}.format-list{color:#e1e2e3;gap:14px}.format-list span{border:1px solid #ffffff25;border-radius:8px;background:#ffffff08;padding:8px 14px}.mascot-scene img{width:400px}.floating-tag{color:#ede6fa;background:#20202deb;border-color:#b089e75c}.tag-one{top:45px}.tag-two{bottom:32px;font-size:10px}.mascot-orbit{border-color:#d1b1f32b}
+.demo-section{padding-top:72px}.demo-window{box-shadow:0 16px 40px #0d0f1208}.window-bar{background:#f0efeb}.after-panel{background:#fdf9f0}.after-panel th,.demo-status,.empty-output{color:#775825}.demo-status{background:#faf7ef}.demo-window.is-mapped .after-panel{border-color:#A17A40}.demo-window.is-mapped .after-panel td{color:#554324;background:#f8f0df}.data-panels .eyebrow{background:#f7f6f2}.mini-card{background:#fff;box-shadow:none}
+.brand-art{background:#efede5;border-color:#d9d2c3}.brand-display .stacked-mark{width:340px;aspect-ratio:1}.page-hero h1{font-weight:750}.privacy-content section a,.contact-address a{color:#765323}.footer-top .brand-mark{width:240px}
+@media(max-width:800px){.nav{gap:20px}.nav .brand-mark{width:220px}.nav nav{gap:20px}.product-copy h3{font-size:36px}.hero-sub{font-size:18px}.section-head h2{font-size:36px}}
+@media(max-width:640px){.nav{height:auto;padding:8px 0 14px;min-height:112px;gap:5px 12px}.nav .brand-mark{width:190px}.nav .small-button{padding:8px 10px}.nav nav{margin-top:2px}.home-hero{padding-top:43px}.home-hero h1{font-size:clamp(42px,10vw,58px);padding:0 15px}.hero-sub{padding:0 20px;font-size:16px}.hero-sub br{display:none}.home-hero .eyebrow{font-size:9px}.actions{gap:12px}.actions .text-link{padding:10px 14px}.horizon{height:205px}.product-section{padding-top:25px}.section-head h2{font-size:34px}.product-copy{padding:27px 25px 0}.product-copy h3{font-size:35px}.product-headline{font-size:25px}.mascot-scene{min-height:310px}.mascot-scene img{width:290px}.tag-one{top:30px}.tag-two{bottom:20px}.footer-top .brand-mark{width:190px}.footer-top{flex-direction:column;align-items:flex-start}.footer-top p{max-width:none}.brand-display .stacked-mark{width:260px}.page-hero h1{font-size:43px}}
