@@ -47,6 +47,24 @@
             font-weight: 700
         }
 
+        header {
+            align-items: center
+        }
+
+        header .brand {
+            flex-shrink: 0
+        }
+
+        header .brand-mark {
+            width: 280px
+        }
+
+        @media(max-width:650px) {
+            header .brand-mark {
+                width: 190px
+            }
+        }
+
         .hero {
             padding: 70px 0 30px
         }
@@ -115,7 +133,9 @@
 
 <body>
     <div class="shell">
-        <header><a href="../index.html">SquatchBro Labs</a>
+        <header><a class="brand" href="../index.html" aria-label="SquatchBro Labs home"><span
+                    class="brand-mark" aria-hidden="true"><img src="../assets/long-logo-charcoal.png" alt=""
+                        width="2048" height="683"></span></a>
             <nav aria-label="Navigation"><a href="../index.html">Home</a><a href="../privacy.html">Website Privacy</a><a
                     href="mailto:support@squatchbrolabs.com">Support</a></nav>
         </header>
